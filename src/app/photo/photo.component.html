@@ -1,0 +1,10 @@
+<div class="row">
+  <div class="col-4">
+    <button type="button" (click)="onGetImage()" class="btn btn-primary">
+      Get a photo
+    </button>
+  </div>
+  <div class="col-8">
+    <img *ngIf="srcImg" width="70%" height="100%" [src]="srcImg" alt="back" />
+  </div>
+</div>
